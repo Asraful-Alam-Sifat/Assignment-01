@@ -153,11 +153,13 @@ nav{
     color:#FFFFFF;
     text-align:center;
     margin:0 260px;
+    margin-bottom:30px;
 }
 .banner-btn{
     display: flex;
     justify-content: space-around;
     margin:0 427px;
+
 }
 
 .banner .btn1{
@@ -193,4 +195,71 @@ nav{
 
 .btn2:hover{
 background-color:lightgray;
+}
+
+
+.note{
+    width: 100%;
+    max-width: 1360px;
+    text-align:center;
+    margin:0 120px;
+    padding-top:50px;
+}
+
+.note-heading{
+    color:#001931;
+    font-size: 48px;
+    font-weight: 700px;
+
+}
+.note p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#627382;
+    margin-top:16px;
+}
+
+.card-container{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1360px;
+    margin:44px 120px;
+   
+
+}
+
+.card{
+    max-width: 322px;
+    box-shadow:4px -3px 15px rgb(192, 190, 190);
+    border-radius: 8px;
+    padding:69px 0;
+   
+}
+.card img{
+ background-color: #F95555;
+ border-radius: 50%;
+ padding:10px;
+ 
+ margin-left:121px;
+
+}
+
+.card h3{
+    font-weight: 600;
+    font-size: 24px;
+    color:#001931;
+    margin-top:16px;
+    text-align: center;
+    padding:0 24px;
+
+}
+
+.card p{
+    font-size: 16px;
+    font-weight:400;
+    color:#627382;
+    margin-top:16px;
+    text-align: center;
+    padding: 0 24px;
 }
