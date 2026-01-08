@@ -60,7 +60,7 @@ nav{
     cursor:pointer;
 }
 .nav-btn:hover{
-    background-color:green;
+    background-color:#18703d;
 }
 
 .banner{
@@ -209,6 +209,7 @@ background-color:lightgray;
     color:#001931;
     font-size: 48px;
     font-weight: 700px;
+    text-transform: capitalize;
 
 }
 .note p{
@@ -250,6 +251,7 @@ background-color:lightgray;
     margin-top:16px;
     text-align: center;
     padding:0 24px;
+    text-transform: capitalize;
 
 }
 
@@ -260,6 +262,7 @@ background-color:lightgray;
     margin-top:16px;
     text-align: center;
     padding: 0 24px;
+    text-transform: capitalize;
 }
 
 .solution{
@@ -310,4 +313,60 @@ background-color:lightgray;
     font-weight: 500;
     font-size: 16px;
     color:#001931;
+}
+
+.think-container{
+    width:90%;
+    max-width:1360px;
+    
+    padding:80px 40px;
+    margin:0 auto;
+
+}
+
+.text-heading h2{
+    font-weight: 700;
+    font-size: 40px;
+    color:#001931;
+    text-align: center;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+.text-heading p{
+    font-size: 15px;
+    font-weight: 400;
+    color:#627382;
+    text-align: center;
+    margin-bottom:24px ;
+}
+
+.access-btn button{
+    font-weight: 600;
+    font-size: 16px;
+    color:#FFFFFF;
+    background-color: #30B868;
+
+    padding:16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:0 auto;
+}
+.access-btn button:hover{
+    background-color: #18703d;
+}
+
+.think-container .sub-opt {
+    font-size: 16px;
+    font-weight: 400;
+    color:#627382;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-top: 16px;
 }
