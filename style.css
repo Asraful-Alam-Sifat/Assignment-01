@@ -63,3 +63,134 @@ nav{
 .nav-btn:hover{
     background-color:green;
 }
+
+.banner{
+    background-image:url(./assets/hero-bg.png);
+    background-size: cover ;
+    background-repeat:no-repeat;
+    padding:115px 120px 180px;
+}
+
+.banner-container{
+    width:100%;
+    max-width:1360px;
+    text-align: center;
+    
+}
+
+.popup{
+    display:flex;
+    background-color:#FFFFFF;
+    
+    justify-content:space-between;
+    position:relative;
+    max-width:240px;
+
+    align-items: center;
+    padding:10px 14px;
+    border-radius:50px;
+
+    margin-bottom:16px;
+    margin-left:560px;
+    
+}
+.popup p{
+    font-weight:500;
+    font-size: 16px;
+    color:#30B868;
+}
+
+.popup .outer-dot{
+    width:18px;
+    height:18px;
+    background-color:#30b86947;
+    border-radius:50%;
+}
+.popup .dot::after{
+    content: "";
+    position:absolute;
+    
+    width:13px;
+    height:13px;
+
+    background-color: #30b8699b;
+    border-radius: 50%;
+    display:block;
+    left:14.5px;
+    top:12.5px;
+}
+.popup .center::after{
+    content: "";
+    position:absolute;
+    width:8px;
+    height:8px;
+
+    background-color: #30b869;
+    border-radius: 50%;
+    display:block;
+    left:17px;
+    top:15px;    
+
+}
+
+.banner-heading{
+    max-width:870px;
+    font-weight:700;
+    font-size:42px;
+    color:#FFFFFF;
+
+    text-transform: capitalize;
+    margin:0 255px;
+    margin-bottom:16px;
+}
+.banner-heading .second{
+        color:#30b869;
+}
+
+.banner-text{
+    font-weight: 400;
+    font-size: 18px;
+    color:#FFFFFF;
+    text-align:center;
+    margin:0 260px;
+}
+.banner-btn{
+    display: flex;
+    justify-content: space-around;
+    margin:0 427px;
+}
+
+.banner .btn1{
+    color:#FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    padding:16px;
+    background-color:#30b869;
+
+    gap:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+.btn1:hover{
+    background-color: #18703d;
+}
+
+.banner .btn2{
+    font-size: 16px;
+    font-weight: 600;
+    color:#FFFFFF;
+    background-color:transparent;
+    border:1px solid #ffffff;
+    padding:16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn2:hover{
+background-color:lightgray;
+}
