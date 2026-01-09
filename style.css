@@ -83,7 +83,7 @@ nav{
     
     justify-content:space-between;
     position:relative;
-    max-width:240px;
+    max-width:250px;
 
     align-items: center;
     padding:10px 14px;
@@ -100,35 +100,35 @@ nav{
 }
 
 .popup .outer-dot{
-    width:18px;
-    height:18px;
-    background-color:#30b86947;
+    width:27px;
+    height:27px;
+    background-color:#30b86974;
     border-radius:50%;
 }
 .popup .dot::after{
     content: "";
     position:absolute;
     
-    width:13px;
-    height:13px;
+    width:19px;
+    height:19px;
 
-    background-color: #30b8699b;
+    background-color: #30b869d8;
     border-radius: 50%;
     display:block;
-    left:16.5px;
-    top:13px;
+    left:18.2px;
+    top:13.7px;
 }
 .popup .center::after{
     content: "";
     position:absolute;
-    width:8px;
-    height:8px;
+    width:10px;
+    height:10px;
 
-    background-color: #30b869;
+    background-color: #033719;
     border-radius: 50%;
     display:block;
-    left:18.8px;
-    top:15.6px;    
+    left:22px;
+    top:18px;    
 
 }
 
